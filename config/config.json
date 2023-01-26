@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "entr",
+    "password": "HW4T1RnUpauKYjKBfBeLzTCcTjj4j5Lg",
+    "database": "entr_hub_db",
+    "host": "dpg-cf9drfh4rebaia5vcm6g-a.frankfurt-postgres.render.com",
+    "url": "postgres://entr:HW4T1RnUpauKYjKBfBeLzTCcTjj4j5Lg@dpg-cf9drfh4rebaia5vcm6g-a.frankfurt-postgres.render.com/entr_hub_db",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sll": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+     "username": "entr",
+    "password": "HW4T1RnUpauKYjKBfBeLzTCcTjj4j5Lg",
+    "database": "entr_hub_db",
+    "host": "dpg-cf9drfh4rebaia5vcm6g-a.frankfurt-postgres.render.com",
+    "url": "postgres://entr:HW4T1RnUpauKYjKBfBeLzTCcTjj4j5Lg@dpg-cf9drfh4rebaia5vcm6g-a/entr_hub_db",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sll": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
